@@ -1,0 +1,42 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# Obsidian local noise
+.obsidian/workspace*.json
+.obsidian/workspace.json
+.trash/
+
+# Archive / export clutter
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Generated or local test outputs
+output/
+exports/
+cache/
+.temp/
