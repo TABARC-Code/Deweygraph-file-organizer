@@ -165,6 +165,9 @@ def add_node(g: dict, rel_path: str, result: dict) -> None:
         "class_links":     result.get("class_links", []),
         "classified_at":   datetime.now(timezone.utc).isoformat(),
     }
+    anchor = result.get("anchor_code", "")
+    if anchor:
+        g["class_heat"][anchor] = g["class_heat"].get(anchor, 0.0) + 1.0
     for lk in result.get("class_links", []):
         cls = lk["target_class"]
         g["class_heat"][cls] = g["class_heat"].get(cls, 0.0) + float(lk.get("heat", 1))
