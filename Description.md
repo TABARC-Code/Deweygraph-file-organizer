@@ -16,6 +16,8 @@ A Claude skill that triages, classifies, and graphs messy folders using Dewey-st
 DeweyGraph turns unstructured folders into navigable archives. It types the folder, decides what's worth keeping before deciding how to classify it, gives each surviving item exactly one anchor code and one material role, builds typed relations that are verified to work in both directions, and emits Obsidian-ready notes and indices. It keeps a decision register so recurring edge cases get the same answer twice. It proposes structural changes; it doesn't make them.
 
 ---
+My thinking is with everyone develping Obsidian secoond brains tis can be used to help organise and enable that secnd brain use flders like memories and sub skills wit better organisation. But like future thinking.
+---
 
 ## Problem it addresses
 
